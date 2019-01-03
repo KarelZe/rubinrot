@@ -22,5 +22,8 @@ def solution(str)
   words.each{|val| val = val << "_" unless val.length.eql? 2}
 end
 ```
+- https://www.codewars.com/kata/roman-numerals-decoder/train/ruby
+(meine Lösung noch aussstehend, vermutlich zu schwer für kürze der Zeit)
+
 ## Komplexes Beispiel ggf. mit Muster
 - <https://www.algorithm-archive.org/contents/stable_marriage_problem/stable_marriage_problem.html>
