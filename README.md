@@ -7,7 +7,7 @@ Ziel dieser Übung ist es Quellcode zu refactoren, der den Kriterien für *Zen o
 
 Quelle: [hier](http://www.codeacademy.com)
 
-## Mitmach-Übung @ Markus
+## Mitmach-Übung @ Markus / Markus
 ### Beschreibung
 In Deutschland gelten folgende Regeln für die Bildung einer Rettungsgasse, wenn es nur eine Spur gibt, sollte jeder nach rechts fahren, so dass die Rettungsfahrzeuge auf der linken Seite vorbeifahren können.
 Wenn es zwei oder mehr Spuren gibt, sollten die Autos auf der linken Fahrspur nach links fahren, und alle anderen sollten sich nach rechts bewegen. Ein möglicher Output könnte wiefolgt aussehen:
@@ -49,7 +49,7 @@ Die Zahlen können von 1 bis 9 sein. 1 wird also das erste Wort sein. Wenn die E
 ```
 # Aufteilen von Strings mittels Regex z. B. am Buchstaben i
 string.split /[i]/
-# Sortieren eines Arrays z. B. arr.sort{|x,y|block}. Block kann als Lambda implementiert sein.
+# Sortieren eines Arrays z. B. arr.sort{|x,y|block}. Block kann als Lambda oder mittels Spaceship-Operator implementiert sein.
 arr.sort{|x,y|y <=> x}
 # Verketten von Elementen eines Arrays mit Kommas
 arr.join(",")
