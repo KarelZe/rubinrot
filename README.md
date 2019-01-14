@@ -47,7 +47,7 @@ Die Zahlen können von 1 bis 9 sein. 1 wird also das erste Wort sein. Wenn die E
 
 ### Hilfreiche Hinweise
 ```
-# Aufteilen von Strings mittels regex z. B. am Buchstaben i
+# Aufteilen von Strings mittels Regex z. B. am Buchstaben i
 string.split /[i]/
 # Sortieren eines Arrays z. B. arr.sort{|x,y|block}. Block kann als Lambda implementiert sein.
 arr.sort{|x,y|y <=> x}
