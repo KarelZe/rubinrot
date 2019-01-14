@@ -4,23 +4,33 @@ Ziel dieser Übung ist es Quellcode zu refactoren, der den Kriterien für *Zen o
 - [zu überarbeitender Quellcode](./refactoring_sample/main_refactored.rb)
 - [Überarbeiteter Quellcode](./refactoring_sample/main_refactored.rb)
 
+Quelle: [hier](http://www.codeacademy.com)
+
 ## Mitmach-Übung
-- https://codegolf.stackexchange.com/questions/161281/make-an-emergency-corridor/161326
-(Coole Übung und auch noch etwas für die praktische Anwendung. Für den Anfang würde ich die "code golf"-Komponente weg lassen, aber wir können ja gemeinsam den besten Ruby-Code erarbeiten.) (unten meine ad-hoc Lösungen)
+### Beschreibung
+In Deutschland gelten folgende Regeln für die Bildung einer Rettungsgasse, wenn es nur eine Spur gibt, sollte jeder nach rechts fahren, so dass die Rettungsfahrzeuge auf der linken Seite vorbeifahren können.
+Wenn es zwei oder mehr Spuren gibt, sollten die Autos auf der linken Fahrspur nach links fahren, und alle anderen sollten sich nach rechts bewegen. Ein möglicher Output könnte wiefolgt aussehen:
 ```
-  n = 5
-  # 1. Variante
-  if n.eql? 1 then print "\u{1F694 1F698}" else print "\u{1F698 1F694}" end
-  (n-1).times{print "\u{1F698}"}
-  # 2. Variante
-  puts n > 1 ? "\u{1F698 1F694}"  << "\u{1F698}" * n : "\u{1F694 1F698}"
-  # 3. Variante
-  puts (10**n).to_s.gsub!("100", "010")
+1 🚔🚘
+2 🚘🚔🚘
+3 🚘🚔🚘🚘
+4 🚘🚔🚘🚘🚘
+5 🚘🚔🚘🚘🚘🚘
+6 🚘🚔🚘🚘🚘🚘🚘
 ```
+### Hilfreiche Hinweise
+```
+# Erzeugen und Ausgabe von Unicode Auto und Polizeiauto-Emoji
+puts "\u{1F698 1F694}"
+```
+### Quellcode
+- keine Vorlage
+- [Lösungsvorschläge](./interactive_sample/proposals.rb)
 
+Quelle: [hier](https://codegolf.stackexchange.com/questions/161281/make-an-emergency-corridor/161326
+)
 
-## Komplexes Beispiel ggf. mit Muster
-- <https://www.algorithm-archive.org/contents/stable_marriage_problem/stable_marriage_problem.html>
+## Übung mit Muster
 - abstrakte Fabrik in Ruby
 
 ## Backup
