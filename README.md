@@ -1,4 +1,4 @@
-# rubinrot
+# Praxisteil Präsentation Software-Architektur :gem:
 ## Refactoring @ Markus 
 Ziel dieser Übung ist es Quellcode zu refactoren, der den Kriterien für *Zen of Ruby* genügt.
 - [zu überarbeitender Quellcode](./refactoring_sample/main_refactored.rb)
