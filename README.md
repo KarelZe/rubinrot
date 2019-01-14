@@ -47,14 +47,19 @@ Die Zahlen können von 1 bis 9 sein. 1 wird also das erste Wort sein. Wenn die E
 
 ### Hilfreiche Hinweise
 ```
-Sortierbedingungen, Spaceship-Operator ergänzen
+# Aufteilen von Strings mittels regex z. B. am Buchstaben i
+string.split /[i]/
+# Sortieren eines Arrays z. B. arr.sort{|x,y|block}. Block kann als Lambda implementiert sein.
+arr.sort{|x,y|y <=> x}
+# Verketten von Elementen eines Arrays mit Kommas
+arr.join(",")
 ```
 ### Quellcode
 - keine Vorlage
 - [Lösungsvorschläge](./backup_sample/backup_sample.rb)
 
 Quelle: [hier](https://www.codewars.com/kata/your-order-please/ruby)
+
 ## Weiterführende Links
 - http://rubykoans.com/windows
-- https://www.sitepoint.com/refactoring-workout-relentlessly-green/
 - https://rubymonk.com/
