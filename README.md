@@ -36,9 +36,11 @@ Quelle: [hier](https://codegolf.stackexchange.com/questions/161281/make-an-emerg
 )
 
 ## Übung mit Muster @ Philipp
-- abstrakte Fabrik
+- Proxy
+- Beschreibung noch aufnehmen. Für Informationen siehe z. B. https://medium.com/@dljerome/design-patterns-in-ruby-proxy-48a379a3b8d3
 - [Singelton und Verwendung](http://www.zenruby.info/) 
 
+Quelle: [hier](https://bogdanvlviv.com/posts/ruby/patterns/design-patterns-in-ruby.html#proxy)
 ## Backup @ Philipp / Markus
 ### Beschreibung
 Die Aufgabe ist es, eine bestimmte Zeichenkette zu sortieren. Jedes Wort in der Zeichenkette enthält eine einzelne Zahl. Diese Zahl ist die Position, die das Wort im Ergebnis haben sollte. 
