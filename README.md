@@ -7,10 +7,10 @@ Ziel dieser Übung ist es Quellcode zu refactoren, der den Kriterien für *Zen o
 
 Quelle: [hier](http://www.codeacademy.com)
 
-## Mitmach-Übung @ Markus / Markus
+## Mitmach-Übung @ Philipp / Markus
 ### Beschreibung
-In Deutschland gelten folgende Regeln für die Bildung einer Rettungsgasse, wenn es nur eine Spur gibt, sollte jeder nach rechts fahren, so dass die Rettungsfahrzeuge auf der linken Seite vorbeifahren können.
-Wenn es zwei oder mehr Spuren gibt, sollten die Autos auf der linken Fahrspur nach links fahren, und alle anderen sollten sich nach rechts bewegen. Ein möglicher Output könnte wiefolgt aussehen:
+In Deutschland gelten nachfolgende Regeln für die Bildung einer Rettungsgasse. Wenn es nur eine Spur gibt, sollte jeder nach rechts fahren, so dass die Rettungsfahrzeuge auf der linken Seite vorbeifahren können.
+Wenn es zwei oder mehr Spuren gibt, sollten die Autos auf der linken Fahrspur nach links fahren und alle anderen sollten sich nach rechts bewegen. Die Regeln lassen sich wie folgt visualisieren:
 ```
 1 🚔🚘
 2 🚘🚔🚘
@@ -19,12 +19,16 @@ Wenn es zwei oder mehr Spuren gibt, sollten die Autos auf der linken Fahrspur na
 5 🚘🚔🚘🚘🚘🚘
 6 🚘🚔🚘🚘🚘🚘🚘
 ```
+Eure Aufgabe ist es, ein Programm zu erstellen, das eine Ausgabe wie oberhalb erzeugt. Die Anzahl der Fahrspuren soll dabei
+veränderlich sein. Anstelle der Emojis können auch Buchstaben oder Zahlen verwendet werden.
+
 ### Hilfreiche Hinweise
 ```
 # Erzeugen und Ausgabe von Unicode Auto und Polizeiauto-Emoji
 puts "\u{1F698 1F694}"
 ```
 ### Quellcode
+- [Online IDE](https://www.tutorialspoint.com/execute_ruby_online.php)
 - keine Vorlage
 - [Lösungsvorschläge](./interactive_sample/proposals.rb)
 
