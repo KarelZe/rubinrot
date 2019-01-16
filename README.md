@@ -9,7 +9,7 @@ Quelle: [hier](http://www.codeacademy.com)
 
 ## Mitmach-Übung @ Philipp / Markus
 ### Beschreibung
-In Deutschland gelten nachfolgende Regeln für die Bildung einer Rettungsgasse. Wenn es nur eine Spur gibt, sollte jeder nach rechts fahren, so dass die Rettungsfahrzeuge auf der linken Seite vorbeifahren können.
+In Deutschland gelten nachfolgende Regeln für die Bildung einer Rettungsgasse. Wenn es nur eine Spur gibt, sollte jeder nach rechts fahren, sodass die Rettungsfahrzeuge auf der linken Seite vorbeifahren können.
 Wenn es zwei oder mehr Spuren gibt, sollten die Autos auf der linken Fahrspur nach links fahren und alle anderen sollten sich nach rechts bewegen. Die Regeln lassen sich wie folgt visualisieren:
 ```
 1 🚔🚘
