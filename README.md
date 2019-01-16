@@ -50,14 +50,13 @@ Quelle: [hier](https://codegolf.stackexchange.com/questions/161281/make-an-emerg
 
 #### Klassendiagramm des Proxy Patterns
 
-![alt text](img/ServiceProxy.png)
-
+<img src="img/ServiceProxy.png" width="600">
 
 #### Klassendiagramm des Proxy Patterns für den Use Case _Protection Proxy für den Zugriff auf ein Bankkonto_
 
-![alt text](img/AccountProtextionProxy.png)
+<img src="img/AccountProtectionProxy.png" width="600">
 
-Quelle: 
+Quellen: 
 [Blog](https://bogdanvlviv.com/posts/ruby/patterns/design-patterns-in-ruby.html#proxy)
 [Buch](https://learning.oreilly.com/library/view/design-patterns-in/9780321490452/)
 
