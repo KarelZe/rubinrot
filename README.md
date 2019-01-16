@@ -36,6 +36,27 @@ Quelle: [hier](https://codegolf.stackexchange.com/questions/161281/make-an-emerg
 )
 
 ## Übung mit Muster @ Philipp
+
+### Das Proxy Pattern
+
+- gehört zur Kategorie der Strukturmuster
+- Zweck ist Bereitstellung eines vorgelagerten Stellverteter-Objekts
+- Stellvertreter-Objekt steuert den Zugang zu Objekt
+- Es existieren verschiedene Arten: Protection Proxy, Remote Proxy, Virtual Proxy
+- Protection Proxy: Zugangskontrolle, Schutz von Informationen
+- Remote Proxy: Fernzugriff auf Objekte
+- Virtual Proxy: Zeitverzögerte Instanziierung von Objekten
+
+
+#### Klassendiagramm des Proxy Patterns
+
+![alt text](img/ServiceProxy.png)
+
+
+#### Klassendiagramm des Proxy Patterns für den Use Case _Protection Proxy für den Zugriff auf ein Bankkonto_
+
+![alt text](img/AccountProxy.png)
+
 - Proxy
 - Beschreibung noch aufnehmen. Für Informationen siehe z. B. https://medium.com/@dljerome/design-patterns-in-ruby-proxy-48a379a3b8d3
 - [Singelton und Verwendung](http://www.zenruby.info/) 
